@@ -1,0 +1,167 @@
+html {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background-color: #e7e7e7;
+    margin: 0%;
+
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-image: linear-gradient(to top, #0260a8, #5a85c5);
+    color: wheat;
+    white-space: nowrap;
+}
+
+.nav-container {
+    height: 55px;
+    display:flex;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 100%;
+    display:flex;
+    align-items: center;
+    width: 40%;
+}
+
+.logo > img {
+    height: 100%;
+}
+
+.brand {
+    font-size: 1.6em;
+}
+
+nav {
+    height: 100%;
+    width: 100%;
+    
+}
+
+nav > ul {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav a {
+    font-size: 0.9em;
+    color: currentColor;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #f6d0ef;;
+}
+
+li {
+    list-style: none;
+    
+}
+
+h1 {
+    margin-top: 2.5em;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 55px auto 0;
+    text-align: center;
+    
+}
+
+.products {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    font-size: 0.8em;
+}
+
+.card {
+    flex: 1;
+    max-width: 350px;
+    margin: 0rem 1rem 1rem 1rem;
+    box-shadow: 6px 6px 6px 5px #505070;
+    border-radius: 7px;
+    background-color: white;
+}
+
+.card:hover {
+    box-shadow: 1px 1px 6px 6px #b5a5b0;
+    transition: box-shadow 0.3s;
+}
+
+.card-header {
+    width: 100%;
+    height: 30px;
+    background-image: linear-gradient(to top, #0260a8, #5a85c5);
+    border-radius: 7px 7px 0 0px;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card img {
+    height: 200px;
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+form div {
+    margin-bottom: 1rem;
+}
+
+.btn {
+    font-size: 1em;
+    padding: 0.5em 2em;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #0260a8, #5a85c5);
+    color: wheat;
+    border: none;
+}
+
+form input[type='email'] {
+    max-width: 30em;
+    width: 90%;
+    font-size: 1em;
+    padding: 0.5em;
+    border-radius: 4px;
+    border: 1px solid white;
+}
+
+form input[type='email']:hover, .btn:hover {
+    border: 1px solid black;
+}
+
+#video {
+    width: 640px;
+    height: 360px;
+    border: none;
+    box-shadow: 4px 4px 6px 3px #505070;
+}
+
+@media (max-width: 640px) {
+    #video {
+        width: 100vw;
+        height: calc(56vw);
+    }
+}

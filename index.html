@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header id="header">
+        <div class="nav-container">
+            <div class="logo">
+                <img id="header-img" src="img/led.png" alt="LED lamps logo">
+                <div class="brand">
+                    ECO LEDs
+                </div>
+            </div>
+            <nav id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="#Illuminate_your_life">Illuminate your life</a></li>
+                    <li><a class="nav-link" href="#How_LEDs_work">How LEDs work</a></li>
+                    <li><a class="nav-link" href="#Products">Products</a></li>
+                    <li><a class="nav-link" href="#Get_ECO_LEDs">Get ECO LEDs</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <div class="container">
+        <section id="Illuminate_your_life">
+            <h1>Illuminate your life</h1>
+            <p>
+                Explore our wide range of LED lamps and LED tubes that provide high quality, energy efficient and
+                sustainable lighting for homes, schools, retail stores and workplaces.
+                Our LED lamps catalogue include LED strips, LED bulbs and LED tubes.
+            </p>
+            <p>&#128504; Up to 90% energy saving compared with traditional incandescent lamps</p>
+            <p>&#128504; Lower maintenance costs</p>
+            <p>&#128504; Low initial investment</p>
+        </section>
+        <section>
+            <h1 id="How_LEDs_work">How LEDs work</h1>
+            <iframe id="video" src="https://www.youtube-nocookie.com/embed/4y7p9R2No-4?rel=0&amp;controls=0&amp;showinfo=0" allowfullscreen></iframe>
+        </section>
+        <section id="Products">
+            <h1>Products</h1>
+            <div class="products">
+                <div class="card">
+                    <div class="card-header"></div>
+                    <div class="card-body">
+                        <img src="img/led-strip.jpg" alt="LED strip">
+                        <p>
+                            Slim LED strip offering high quality light with diversified options in terms of brightness
+                            and light color.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header"></div>
+                    <div class="card-body">
+                        <img src="img/light.jpg" alt="LED bulb">
+                        <p>
+                            LED bulbs are compatible with existing fixtures with a E27 holder and are designed for
+                            retrofit replacement of incandescent,
+                            halogen and energy saving bulbs. They deliver huge energy savings and minimize initial investment.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header"></div>
+                    <div class="card-body">
+                        <img src="img/neon-tube.jpg" alt="LED tube">
+                        <p>
+                            Introducing LEDtubes - smart retrofit LED T8 lamps that give you an
+                            easy and seamless way to upgrade to connected lighting.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Get_ECO_LEDs">
+            <h1>Get ECO LEDs</h1>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <div>
+                    <input name="email" id="email" type="email" placeholder="Enter your email address" required />
+                </div>
+                <div>
+                    <input id="submit" type="submit" value="Get" class="btn" />
+                </div>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
